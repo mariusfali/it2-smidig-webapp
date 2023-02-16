@@ -7,4 +7,4 @@ def index():
     navn = "Sandvika"
     return render_template("index.html", navn=navn)
 
-#app.run(debug=True)
+app.run(debug=True)
