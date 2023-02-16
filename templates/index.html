@@ -4,5 +4,14 @@
 
 <h1>Hjemsiden</h1>
 
+<form action="/results" method="post">
+    <label for="word">Check word:</label><br>
+    <input type="text" id="word" name="word"><br><br>
+    <input type="submit" value="Get results">
+  </form> 
+
+
+<h2>{{ results }}</h2>
+
 {% endblock %}
 
